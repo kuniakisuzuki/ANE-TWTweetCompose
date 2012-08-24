@@ -93,33 +93,6 @@ FREObject setTweetViewWithTextAndURL(
     return NULL;
 }
 
-/*
- FREObject GetHelloWorld(FREContext ctx, void* funcData, uint32_t argc, FREObject argv[]) {
- 
- const char *str = "HelloWorld MUSHIKAGO!";
- 
- 
- FREObject retStr;
- FRENewObjectFromUTF8(strlen(str)+1, (const uint8_t *)str, &retStr);
- 
- return retStr;
- }
- */
-
-/*
- void ContextInitializer(void* extData, const uint8_t* ctxType, FREContext ctx,
- uint32_t* numFunctionsToTest, const FRENamedFunction** functionsToSet) {
- *numFunctionsToTest = 1;
- FRENamedFunction* func = (FRENamedFunction*)malloc(sizeof(FRENamedFunction)*1);
- func[0].name = (const uint8_t*)"GetHelloWorld"; //ネイティブ拡張関数名
- func[0].functionData = NULL;
- func[0].function = &GetHelloWorld; //ネイティブコード関数のポインタ
- 
- *functionsToSet = func;
- }
- */
-
-
 void ContextInitializer( void* extData, const uint8_t* ctxType, FREContext ctx, uint32_t* numFunctionsToSet, const FRENamedFunction** functionsToSet )
 {
     static FRENamedFunction functionMap[] = {
