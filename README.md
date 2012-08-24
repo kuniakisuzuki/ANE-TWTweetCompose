@@ -8,8 +8,11 @@ Usage.
 import jp.sikisize.TWTweetComposeExtension;
 
 var _ane:TWTweetComposeExtension = new TWTweetComposeExtension();
+
 if(_ane.canSendTweet()){
+
     //_ane.setTweetViewWithText("test!");
+    
     _ane.setTweetViewWithTextAndURL("test!" , "http://www.google.com");
+
 }
-===========
