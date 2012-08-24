@@ -1,0 +1,248 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E59701C315E72DE500E5C3B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59701C215E72DE500E5C3B1 /* Foundation.framework */; };
+		E59701C815E72DE500E5C3B1 /* TWTweetComposeANE.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E59701C715E72DE500E5C3B1 /* TWTweetComposeANE.h */; };
+		E59701CA15E72DE500E5C3B1 /* TWTweetComposeANE.m in Sources */ = {isa = PBXBuildFile; fileRef = E59701C915E72DE500E5C3B1 /* TWTweetComposeANE.m */; };
+		E59701D315E72E3200E5C3B1 /* TwitterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E59701D215E72E3200E5C3B1 /* TwitterManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E59701BD15E72DE500E5C3B1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				E59701C815E72DE500E5C3B1 /* TWTweetComposeANE.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E59701BF15E72DE500E5C3B1 /* libTWTweetComposeANE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTWTweetComposeANE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59701C215E72DE500E5C3B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E59701C615E72DE500E5C3B1 /* TWTweetComposeANE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TWTweetComposeANE-Prefix.pch"; sourceTree = "<group>"; };
+		E59701C715E72DE500E5C3B1 /* TWTweetComposeANE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTweetComposeANE.h; sourceTree = "<group>"; };
+		E59701C915E72DE500E5C3B1 /* TWTweetComposeANE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTweetComposeANE.m; sourceTree = "<group>"; };
+		E59701D015E72E1F00E5C3B1 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlashRuntimeExtensions.h; path = ../../../../Applications/AdobeAIRSDK/include/FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		E59701D115E72E3200E5C3B1 /* TwitterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterManager.h; sourceTree = "<group>"; };
+		E59701D215E72E3200E5C3B1 /* TwitterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E59701BC15E72DE500E5C3B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59701C315E72DE500E5C3B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E59701B415E72DE500E5C3B1 = {
+			isa = PBXGroup;
+			children = (
+				E59701D015E72E1F00E5C3B1 /* FlashRuntimeExtensions.h */,
+				E59701C415E72DE500E5C3B1 /* TWTweetComposeANE */,
+				E59701C115E72DE500E5C3B1 /* Frameworks */,
+				E59701C015E72DE500E5C3B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E59701C015E72DE500E5C3B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E59701BF15E72DE500E5C3B1 /* libTWTweetComposeANE.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E59701C115E72DE500E5C3B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E59701C215E72DE500E5C3B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E59701C415E72DE500E5C3B1 /* TWTweetComposeANE */ = {
+			isa = PBXGroup;
+			children = (
+				E59701C715E72DE500E5C3B1 /* TWTweetComposeANE.h */,
+				E59701C915E72DE500E5C3B1 /* TWTweetComposeANE.m */,
+				E59701D115E72E3200E5C3B1 /* TwitterManager.h */,
+				E59701D215E72E3200E5C3B1 /* TwitterManager.m */,
+				E59701C515E72DE500E5C3B1 /* Supporting Files */,
+			);
+			path = TWTweetComposeANE;
+			sourceTree = "<group>";
+		};
+		E59701C515E72DE500E5C3B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E59701C615E72DE500E5C3B1 /* TWTweetComposeANE-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E59701BE15E72DE500E5C3B1 /* TWTweetComposeANE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E59701CD15E72DE500E5C3B1 /* Build configuration list for PBXNativeTarget "TWTweetComposeANE" */;
+			buildPhases = (
+				E59701BB15E72DE500E5C3B1 /* Sources */,
+				E59701BC15E72DE500E5C3B1 /* Frameworks */,
+				E59701BD15E72DE500E5C3B1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWTweetComposeANE;
+			productName = TWTweetComposeANE;
+			productReference = E59701BF15E72DE500E5C3B1 /* libTWTweetComposeANE.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E59701B615E72DE500E5C3B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Suzuki Kuniaki";
+			};
+			buildConfigurationList = E59701B915E72DE500E5C3B1 /* Build configuration list for PBXProject "TWTweetComposeANE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E59701B415E72DE500E5C3B1;
+			productRefGroup = E59701C015E72DE500E5C3B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E59701BE15E72DE500E5C3B1 /* TWTweetComposeANE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E59701BB15E72DE500E5C3B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59701CA15E72DE500E5C3B1 /* TWTweetComposeANE.m in Sources */,
+				E59701D315E72E3200E5C3B1 /* TwitterManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E59701CB15E72DE500E5C3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E59701CC15E72DE500E5C3B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E59701CE15E72DE500E5C3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TWTweetComposeANE.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TWTweetComposeANE/TWTweetComposeANE-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E59701CF15E72DE500E5C3B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TWTweetComposeANE.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TWTweetComposeANE/TWTweetComposeANE-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E59701B915E72DE500E5C3B1 /* Build configuration list for PBXProject "TWTweetComposeANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59701CB15E72DE500E5C3B1 /* Debug */,
+				E59701CC15E72DE500E5C3B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E59701CD15E72DE500E5C3B1 /* Build configuration list for PBXNativeTarget "TWTweetComposeANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59701CE15E72DE500E5C3B1 /* Debug */,
+				E59701CF15E72DE500E5C3B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E59701B615E72DE500E5C3B1 /* Project object */;
+}
