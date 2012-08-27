@@ -3,6 +3,12 @@ ANE-TWTweetCompose
 
 Using TWTweetComposeViewController(but , simple tweet method only) for Air Native Extension in iOS.
 
+
+Screenshots
+-----------
+![Screenshot0](http://kuniakisuzuki.cocolog-nifty.com/photos/uncategorized/2012/08/25/img_2272.png)
+
+
 Usage.
 -------------
     import jp.sikisize.TWTweetComposeExtension;
