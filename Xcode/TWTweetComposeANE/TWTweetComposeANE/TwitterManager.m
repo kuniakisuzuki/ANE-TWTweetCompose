@@ -59,7 +59,7 @@
     if(tweetView)
         [tweetView release],tweetView = nil;
     
-    [_targetView release];
+    _targetView = nil;
     [super dealloc];
 }
 

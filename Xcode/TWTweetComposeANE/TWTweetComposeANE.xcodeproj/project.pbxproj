@@ -32,9 +32,9 @@
 		E59701C615E72DE500E5C3B1 /* TWTweetComposeANE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TWTweetComposeANE-Prefix.pch"; sourceTree = "<group>"; };
 		E59701C715E72DE500E5C3B1 /* TWTweetComposeANE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTweetComposeANE.h; sourceTree = "<group>"; };
 		E59701C915E72DE500E5C3B1 /* TWTweetComposeANE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTweetComposeANE.m; sourceTree = "<group>"; };
-		E59701D015E72E1F00E5C3B1 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlashRuntimeExtensions.h; path = ../../../../Applications/AdobeAIRSDK/include/FlashRuntimeExtensions.h; sourceTree = "<group>"; };
 		E59701D115E72E3200E5C3B1 /* TwitterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterManager.h; sourceTree = "<group>"; };
 		E59701D215E72E3200E5C3B1 /* TwitterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterManager.m; sourceTree = "<group>"; };
+		E5ED426715F18E3C00DD036A /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlashRuntimeExtensions.h; path = ../../../../../../Applications/AdobeAIRSDK/include/FlashRuntimeExtensions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 		E59701B415E72DE500E5C3B1 = {
 			isa = PBXGroup;
 			children = (
-				E59701D015E72E1F00E5C3B1 /* FlashRuntimeExtensions.h */,
+				E5ED426715F18E3C00DD036A /* FlashRuntimeExtensions.h */,
 				E59701C415E72DE500E5C3B1 /* TWTweetComposeANE */,
 				E59701C115E72DE500E5C3B1 /* Frameworks */,
 				E59701C015E72DE500E5C3B1 /* Products */,
@@ -241,6 +241,7 @@
 				E59701CF15E72DE500E5C3B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
