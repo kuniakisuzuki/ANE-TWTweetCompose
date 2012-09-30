@@ -27,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E5852CBD160C5A4C00ABFAD5 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlashRuntimeExtensions.h; path = ../../../../../../../../Applications/AdobeAIRSDK/include/FlashRuntimeExtensions.h; sourceTree = "<group>"; };
 		E59701BF15E72DE500E5C3B1 /* libTWTweetComposeANE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTWTweetComposeANE.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E59701C215E72DE500E5C3B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E59701C615E72DE500E5C3B1 /* TWTweetComposeANE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TWTweetComposeANE-Prefix.pch"; sourceTree = "<group>"; };
@@ -34,7 +35,6 @@
 		E59701C915E72DE500E5C3B1 /* TWTweetComposeANE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTweetComposeANE.m; sourceTree = "<group>"; };
 		E59701D115E72E3200E5C3B1 /* TwitterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterManager.h; sourceTree = "<group>"; };
 		E59701D215E72E3200E5C3B1 /* TwitterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterManager.m; sourceTree = "<group>"; };
-		E5ED426715F18E3C00DD036A /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlashRuntimeExtensions.h; path = ../../../../../../Applications/AdobeAIRSDK/include/FlashRuntimeExtensions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 		E59701B415E72DE500E5C3B1 = {
 			isa = PBXGroup;
 			children = (
-				E5ED426715F18E3C00DD036A /* FlashRuntimeExtensions.h */,
+				E5852CBD160C5A4C00ABFAD5 /* FlashRuntimeExtensions.h */,
 				E59701C415E72DE500E5C3B1 /* TWTweetComposeANE */,
 				E59701C115E72DE500E5C3B1 /* Frameworks */,
 				E59701C015E72DE500E5C3B1 /* Products */,
@@ -174,7 +174,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -192,7 +192,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

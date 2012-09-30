@@ -21,7 +21,7 @@
 {
     if(_targetView){
         [_targetView presentModalViewController:tweetView animated:animated];
-        [tweetView release];
+        //[tweetView release];
     }
 }
 
