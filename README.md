@@ -25,4 +25,4 @@ Usage.
     
 Coming soon
 ===========
-Support Adobe AIR for iOS6 , add Facebook post function.
+When Support Adobe AIR for iOS6 , add Facebook post function.
